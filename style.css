@@ -138,6 +138,8 @@ body{
     background-color: #182357;
 }
 
+
+
 .planetMars .loader{
     position: relative;
     width: 400px;
@@ -224,4 +226,39 @@ body{
         background-position: -340px;
     }
     
+}
+@media (max-width: 991.98px) {
+
+.planet h2 {
+    text-align: center;
+    font-size: 2rem;
+
+}
+	.planetEarth{
+	display:block;
+	width: 100%;
+	height:100%
+
+}
+.planetEarth .loader,.planetMars .loader {
+    width: 170px;
+    height: 170px;
+}
+
+.earth, .mars {
+
+   	width: 150px;
+    	height: 150px;}
+
+	.planetMars{
+	display:block;
+	width: 100%;
+	height:100vh
+}
+
+body{
+	display:block;
+	width: 100%;
+	height:100%
+}
 }
